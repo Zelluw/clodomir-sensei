@@ -1,0 +1,44 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+
+* {
+    font-family: "Montserrat";
+}
+
+body {
+    background-image: url(images/rl1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: whitesmoke;
+    margin: 5;
+}
+
+.top_title {
+    background-color: black;
+    border: 3px solid blue;
+    border-radius: 10px;
+    color: blue;
+    font-size: 1.2em;
+}
+
+table {
+    padding: 10px;
+}
+
+caption {
+    font-size: 2em;
+}
+
+table, caption, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+caption, th, td {
+    padding: 5px;
+}
+
+.logo_bot {
+    size: 5px ;
+}

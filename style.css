@@ -130,3 +130,29 @@ li {
 .team_link {
     color: whitesmoke;
 }
+
+.link_team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.linkEU {
+    background-color: rgba( 128, 128, 128, 0.8);
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.linkUS{
+    background-color: rgba( 128, 128, 128, 0.8);
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.linkAsia{
+    background-color: rgba( 128, 128, 128, 0.8);
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
