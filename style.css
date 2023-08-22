@@ -66,6 +66,7 @@ li a:hover{
     border-radius: 10px;
     color: blue;
     font-size: 1.2em;
+    margin-top: 80px;
 }
 
 h1{
@@ -216,4 +217,8 @@ li {
 
 .text_team{
     margin-bottom: 5%;
+}
+
+.text_list{
+    color: #307fe2;
 }
