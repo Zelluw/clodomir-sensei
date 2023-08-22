@@ -3,15 +3,63 @@
 
 * {
     font-family: "Montserrat";
+    font-weight: 200;
+}
+
+header{
+    position: fixed; 
+    top: 0;
+
+    height: 70px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    
+    background-color: #333;
+    color: #FFF;
+
+    border: solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav_tab{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav_tab_li{
+    float: left;
 }
 
 .top {
-    background-color: black;
-    border: 3px solid blue;
+/*     background-color: black;
+    border: 3px solid blue; */
     border-radius: 10px;
-    color: blue;
+    color: white;
     font-size: 1.2em;
+    padding-top: 50px;
+
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
 .top-a-propos{
     background-color: black;
     border: 3px solid blue;
@@ -19,6 +67,15 @@
     color: blue;
     font-size: 1.2em;
 }
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
 .bot {
     display: flex;
     background-color: rgba( 128, 128, 128, 0.5);
@@ -27,6 +84,7 @@
     padding: 20px;
     padding-bottom: 0px;
     justify-content: space-between;
+    margin-top: 4em;
     
 }
 body{
@@ -38,7 +96,7 @@ body{
     margin: 5;
 }
 p {
-    color:#F9F8FF;
+    color:#307fe2;
     font-size: 1.3em;
     font-weight: medium;
     text-align: justify;
@@ -81,14 +139,13 @@ p {
     color: black;
 }
 
-.link {
+.link_how {
     color: black;
     font-size: 1.4em;
     border-bottom: 3px solid white;
     border-radius: 10px;
     background-color: rgba(128,128,128,0.5);
-    padding: 15px 20px;
-    
+    padding: 15px 20px; 
 }
 .link1 {
     color: orangered;
@@ -122,7 +179,7 @@ li {
     background-color: black;
 }
 .text{
-    background-color: rgba( 128, 128, 128, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 /* .text_team{
     background-color: rgba( 128, 128, 128, 0.5);
@@ -135,24 +192,28 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 3em;
 }
 .linkEU {
-    background-color: rgba( 128, 128, 128, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 8px;
     border-radius: 5px;
     border: 2px solid black;
 }
 .linkUS{
-    background-color: rgba( 128, 128, 128, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 8px;
     border-radius: 5px;
     border: 2px solid black;
 }
 
 .linkAsia{
-    background-color: rgba( 128, 128, 128, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 8px;
     border-radius: 5px;
     border: 2px solid black;
 }
 
+.text_team{
+    margin-bottom: 5%;
+}
