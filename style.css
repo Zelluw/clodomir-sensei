@@ -9,8 +9,10 @@
 header{
     position: fixed; 
     top: 0;
+    right: 0;
+    left: 0;
 
-    height: 70px;
+    height: 50px;
     width: 100%;
     
     display: flex;
@@ -18,12 +20,10 @@ header{
     align-items: center;
     
     
-    background-color: #333;
+    /* background-color: gray; */
+    background-image: linear-gradient(#000b28, #000b28);
     color: #FFF;
 
-    border: solid;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 30px;
 }
 
 .nav_tab{
@@ -36,16 +36,23 @@ header{
 
 .nav_tab_li{
     float: left;
+    margin-left: 10px;
 }
 
 .top {
-/*     background-color: black;
-    border: 3px solid blue; */
+    border: solid;
     border-radius: 10px;
-    color: white;
-    font-size: 1.2em;
-    padding-top: 50px;
-
+    color: #307fe2;
+    text-decoration: underline;
+    text-shadow:#e7f6ff 0 -1px 0,
+    #00abf0 1px 1px 0,
+    #0096e4 2px 2px 0,
+    #00ceff 3px 3px 0,
+    #006392 4px 4px 0,
+    #00485b 5px 5px 0,
+    #333 5px 5px 10px;color:#44e9ff;
+    
+    margin-top: 100px;
 }
 
 li a {
@@ -57,18 +64,21 @@ li a {
 }
 
 li a:hover{
-    background-color: #111;
+    text-decoration: underline white;
 }
 
-.top-a-propos{
+/* .top-a-propos{
     background-color: black;
     border: 3px solid blue;
     border-radius: 10px;
     color: blue;
     font-size: 1.2em;
     margin-top: 80px;
+} */
+footer{
+    bottom: 0;
+    width: 100%;
 }
-
 h1{
     text-align: center;
 }
@@ -83,9 +93,9 @@ h2{
     align-items: center;
     border-radius: 20px;
     padding: 20px;
-    padding-bottom: 0px;
     justify-content: space-between;
     margin-top: 4em;
+    bottom: 0;
     
 }
 body{
@@ -97,7 +107,7 @@ body{
     margin: 5;
 }
 p {
-    color:#307fe2;
+    color: orange;
     font-size: 1.3em;
     font-weight: medium;
     text-align: justify;
@@ -123,64 +133,74 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    bottom: 0;
 
 }
 .logo_insta {
     display: flex;
     flex-direction: column;
     align-items: center;
+    bottom: 0;
 }
 .logo_twitter {
     display: flex;
     flex-direction: column;
     align-items: center;
+    bottom: 0;
 }
 
 .text_bot{
     color: black;
 }
 
-.link_how {
+/* .link_how {
     color: black;
     font-size: 1.4em;
     border-bottom: 3px solid white;
     border-radius: 10px;
     background-color: rgba(128,128,128,0.5);
     padding: 15px 20px; 
-}
+} */
 .link1 {
-    color: orangered;
+    color: orange;
     text-decoration: none;
     text-shadow: 10px 10px 15px black;
 }
 .link2 {
-    color: whitesmoke;
+    color: orange;
 }
 
 li {
-    color:whitesmoke;
+    color:orange;
     font-size: 1.1em;
     font-weight: medium;
     text-align: justify;
 }
-.obj_div{
-    color: red;
-    font-family: cursive;
-    font-size: 1em;
-    border: 3px solid red;
-    border-radius: 10px;
-    background-color: black;
+.obj{
+    text-shadow:#FFFEC8 0 -1px 0,
+    #ff3a00 1px 1px 0,
+    #c01c01 2px 2px 0,
+    #bf1b01 3px 3px 0,
+    #e90b20 4px 4px 0,
+    #850103 5px 5px 0,
+    #333 5px 5px 10px;color:#FFD100;
+    font-size: 1.5em;
+    text-decoration: underline;
+
 }
 .how{
-    color: red;
-    font-family: cursive;
-    font-size: 1em;
-    border: 3px solid red;
-    border-radius: 10px;
-    background-color: black;
+    text-shadow:#FFFEC8 0 -1px 0,
+    #ff3a00 1px 1px 0,
+    #c01c01 2px 2px 0,
+    #bf1b01 3px 3px 0,
+    #e90b20 4px 4px 0,
+    #850103 5px 5px 0,
+    #333 5px 5px 10px;color:#FFD100;
+    font-size: 1.5em;
+    text-decoration: underline;
 }
 .text{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba( 128, 128, 128, 0.8);
 }
 /* .text_team{
     background-color: rgba( 128, 128, 128, 0.5);
@@ -196,20 +216,20 @@ li {
     margin-bottom: 3em;
 }
 .linkEU {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba( 128, 128, 128, 0.8);
     padding: 8px;
     border-radius: 5px;
     border: 2px solid black;
 }
 .linkUS{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba( 128, 128, 128, 0.8);
     padding: 8px;
     border-radius: 5px;
     border: 2px solid black;
 }
 
 .linkAsia{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba( 128, 128, 128, 0.8);
     padding: 8px;
     border-radius: 5px;
     border: 2px solid black;
@@ -222,3 +242,93 @@ li {
 .text_list{
     color: #307fe2;
 }
+
+.all_team{
+    color: #307fe2;
+    text-decoration: underline;
+    text-shadow:#e7f6ff 0 -1px 0,
+    #00abf0 1px 1px 0,
+    #0096e4 2px 2px 0,
+    #00ceff 3px 3px 0,
+    #006392 4px 4px 0,
+    #00485b 5px 5px 0,
+    #333 5px 5px 10px;color:#44e9ff;
+    font-size: 2em;
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.flex_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_how{
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    padding: 20px;
+    border: solid 4px white;
+    background-color: black;
+    border-radius: 10px 40px;
+    margin-bottom: 50px;
+}
+.text_obj{
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    padding: 20px;
+    border: solid 4px white;
+    background-color: black;
+    border-radius: 40px 10px;
+}
+.text_intro{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-shadow: black 3px 2px;
+}
+.text_main{
+    
+}
+.img_obj{
+    display: flex;
+    align-items: right;
+    max-width: 600px;
+}
+.img_how{
+    display: flex;
+    align-items: left;
+    max-width: 600px;
+}
+
+/*  Couleur et effets de titre 
+
+    color: #307fe2;
+    text-decoration: underline;
+    text-shadow:#e7f6ff 0 -1px 0,
+    #00abf0 1px 1px 0,
+    #0096e4 2px 2px 0,
+    #00ceff 3px 3px 0,
+    #006392 4px 4px 0,
+    #00485b 5px 5px 0,
+    #333 5px 5px 10px;color:#44e9ff;
+
+    Couleur et effets de sous-titres
+
+    text-shadow:#FFFEC8 0 -1px 0,
+    #ff3a00 1px 1px 0,
+    #c01c01 2px 2px 0,
+    #bf1b01 3px 3px 0,
+    #e90b20 4px 4px 0,
+    #850103 5px 5px 0,
+    #333 5px 5px 10px;color:#FFD100;
+
+*/ 
+    
