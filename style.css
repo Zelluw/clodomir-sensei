@@ -2,7 +2,7 @@
 @import url(https://fonts.google.com/specimen/Montserrat?query=monts);
 
 * {
-    font-family: "Montserrat";
+    font-family: "Bourgeois W00 Medium";
     font-weight: 200;
 }
 
@@ -75,10 +75,7 @@ li a:hover{
     font-size: 1.2em;
     margin-top: 80px;
 } */
-footer{
-    bottom: 0;
-    width: 100%;
-}
+
 h1{
     text-align: center;
 }
@@ -92,11 +89,13 @@ h2{
     background-color: rgba( 128, 128, 128, 0.5);
     align-items: center;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     justify-content: space-between;
     margin-top: 4em;
+}
+footer{
     bottom: 0;
-    
+    width: 100%;
 }
 body{
     background-image: url(images/rl1.webp);
@@ -151,6 +150,7 @@ p {
 
 .text_bot{
     color: black;
+    bottom: 0;
 }
 
 /* .link_how {
@@ -236,7 +236,7 @@ li {
 }
 
 .text_team{
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .text_list{
