@@ -1,354 +1,360 @@
-
-@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
-
-* {
-    font-family: "Bourgeois W00 Medium";
-    font-weight: 200;
-}
-
-header{
-    position: fixed; 
-    top: 0;
-    right: 0;
-    left: 0;
-
-    height: 50px;
-    width: 100%;
-    
-    display: flex;
-    justify-content: start;
-    align-items: center;
+@media screen and (min-width: 400px){
     
     
-    /* background-color: gray; */
-    background-image: linear-gradient(#000b28, #000b28);
-    color: #FFF;
+    * {
+        font-family: "Bourgeois W00 Medium";
+        font-weight: 200;
+    }
 
-}
+    header{
+        position: fixed; 
+        top: 0;
+        right: 0;
+        left: 0;
 
-.nav_tab{
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+        height: 50px;
+        width: 100%;
+        
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        
+        
+        /* background-color: gray; */
+        background-image: linear-gradient(#000b28, #000b28);
+        color: #FFF;
 
-.nav_tab_li{
-    float: left;
-    margin-left: 10px;
-}
+    }
 
-.top {
-    border: solid;
-    border-radius: 10px;
-    color: #307fe2;
-    text-decoration: underline;
-    text-shadow:#e7f6ff 0 -1px 0,
-    #00abf0 1px 1px 0,
-    #0096e4 2px 2px 0,
-    #00ceff 3px 3px 0,
-    #006392 4px 4px 0,
-    #00485b 5px 5px 0,
-    #333 5px 5px 10px;color:#44e9ff;
-    
-    margin-top: 100px;
-}
+    .nav_tab{
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    .nav_tab_li{
+        float: left;
+        margin-left: 10px;
+    }
 
-li a:hover{
-    text-decoration: underline white;
-}
+    .top {
+        color: #307fe2;
+        text-decoration: underline;
+        text-shadow:#e7f6ff 0 -1px 0,
+        #00abf0 1px 1px 0,
+        #0096e4 2px 2px 0,
+        #00ceff 3px 3px 0,
+        #006392 4px 4px 0,
+        #00485b 5px 5px 0,
+        #333 5px 5px 10px;color:#44e9ff;
+        text-shadow: 7px black;
+        width: 50%;
+        
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-/* .top-a-propos{
-    background-color: black;
-    border: 3px solid blue;
-    border-radius: 10px;
-    color: blue;
-    font-size: 1.2em;
-    margin-top: 80px;
-} */
 
-h1{
-    text-align: center;
-}
 
-h2{
-    text-align: center;
-}
 
-.bot {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: black;
-    bottom: 0px;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 0px;
-}
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: black;
-    bottom: 0px;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 0px;
-}
-main{
-    position: relative;
-}
-body{
-    background-image: url(images/rl1.webp);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: whitesmoke;
-    margin: 5;
-    position: relative;
-}
-p {
-    color: orange;
-    font-size: 1.3em;
-    font-weight: medium;
-    text-align: justify;
-}
-.p1 {
-    color:red;
-    font-size: 1.3em;
-    font-style: italic;
-    font-weight: medium;
-    text-align: justify;
-}
-.p2 {
-    color:#F9F8FF;
-    font-size: 1.3em;
-    font-weight: large;
-    text-align: justify;
-}
-.logo {
-    width: 150px;
-    height: 150px;
-}
-.up {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    bottom: 0;
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-}
-.logo_insta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    bottom: 0;
-    /* width: 100px; */
-}
-.logo_twitter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    bottom: 0;
-    /* width: 100px; */
-}
-.logo_twitter_img{
-    font-size: 4em;
-    color: white;
-}
-.logo_insta_img{
-    font-size: 4em;
-    color: white;
-}
-.text_bot{
-    color: white;
-    bottom: 0;
-}
+    li a:hover{
+        text-decoration: underline white;
+    }
 
-/* .link_how {
-    color: black;
-    font-size: 1.4em;
-    border-bottom: 3px solid white;
-    border-radius: 10px;
-    background-color: rgba(128,128,128,0.5);
-    padding: 15px 20px; 
-} */
-.link1 {
-    color: orange;
-    text-decoration: none;
-    text-shadow: 10px 10px 15px black;
-}
-.link2 {
-    color: orange;
-}
+    h1{
+        text-align: center;
+    }
 
-li {
-    color:orange;
-    font-size: 1.1em;
-    font-weight: medium;
-    text-align: justify;
-}
-.obj{
-    text-shadow:#FFFEC8 0 -1px 0,
-    #ff3a00 1px 1px 0,
-    #c01c01 2px 2px 0,
-    #bf1b01 3px 3px 0,
-    #e90b20 4px 4px 0,
-    #850103 5px 5px 0,
-    #333 5px 5px 10px;color:#FFD100;
-    font-size: 1.5em;
-    text-decoration: underline;
+    h2{
+        text-align: center;
+    }
 
-}
-.how{
-    text-shadow:#FFFEC8 0 -1px 0,
-    #ff3a00 1px 1px 0,
-    #c01c01 2px 2px 0,
-    #bf1b01 3px 3px 0,
-    #e90b20 4px 4px 0,
-    #850103 5px 5px 0,
-    #333 5px 5px 10px;color:#FFD100;
-    font-size: 1.5em;
-    text-decoration: underline;
-}
-.text{
-    background-color: rgba( 128, 128, 128, 0.8);
-}
-/* .text_team{
-    background-color: rgba( 128, 128, 128, 0.5);
-} */
-.team_link {
-    color: whitesmoke;
-}
+    .bot {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        bottom: 0px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        bottom: 0px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    main{
+        position: relative;
+    }
+    body{
+        background-image: url(images/rl1.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        color: whitesmoke;
+        margin: 5;
+        position: relative;
+    }
+    p {
+        color: orange;
+        font-size: 1.3em;
+        font-weight: medium;
+        text-align: justify;
+    }
+    .p1 {
+        color:red;
+        font-size: 1.3em;
+        font-style: italic;
+        font-weight: medium;
+        text-align: justify;
+    }
+    .p2 {
+        color:#F9F8FF;
+        font-size: 1.3em;
+        font-weight: large;
+        text-align: justify;
+    }
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+    .up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
 
-.link_team{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 3em;
-}
-.linkEU {
-    background-color: rgba( 128, 128, 128, 0.8);
-    padding: 8px;
-    border-radius: 5px;
-    border: 2px solid black;
-}
-.linkUS{
-    background-color: rgba( 128, 128, 128, 0.8);
-    padding: 8px;
-    border-radius: 5px;
-    border: 2px solid black;
-}
+    }
+    .logo_insta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        /* width: 100px; */
+    }
+    .logo_twitter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        /* width: 100px; */
+    }
+    .logo_twitter_img{
+        font-size: 4em;
+        color: white;
+        transition: all 0.3s ease;
+    }
+    .logo_insta_img{
+        font-size: 4em;
+        color: white;
+        transition: all 0.3s ease;
+    }
+    .text_bot{
+        color: white;
+        bottom: 0;
+    }
 
-.linkAsia{
-    background-color: rgba( 128, 128, 128, 0.8);
-    padding: 8px;
-    border-radius: 5px;
-    border: 2px solid black;
-}
+    /* .link_how {
+        color: black;
+        font-size: 1.4em;
+        border-bottom: 3px solid white;
+        border-radius: 10px;
+        background-color: rgba(128,128,128,0.5);
+        padding: 15px 20px; 
+    } */
+    .link1 {
+        color: orange;
+        text-decoration: none;
+        text-shadow: 10px 10px 15px black;
+    }
+    .link2 {
+        color: orange;
+    }
 
-.text_team{
-    /* margin-bottom: 5%; */
-}
+    li {
+        color:orange;
+        font-size: 1.1em;
+        font-weight: medium;
+        text-align: justify;
+    }
+    .obj{
+        text-shadow:#FFFEC8 0 -1px 0,
+        #ff3a00 1px 1px 0,
+        #c01c01 2px 2px 0,
+        #bf1b01 3px 3px 0,
+        #e90b20 4px 4px 0,
+        #850103 5px 5px 0,
+        #333 5px 5px 10px;color:#FFD100;
+        font-size: 1.5em;
+        text-decoration: underline;
+        text-underline-offset: auto;
 
-.text_list{
-    color: #307fe2;
-}
+    }
+    .how{
+        text-shadow:#FFFEC8 0 -1px 0,
+        #ff3a00 1px 1px 0,
+        #c01c01 2px 2px 0,
+        #bf1b01 3px 3px 0,
+        #e90b20 4px 4px 0,
+        #850103 5px 5px 0,
+        #333 5px 5px 10px;color:#FFD100;
+        font-size: 1.5em;
+        text-decoration: underline;
+        text-underline-offset: auto;
+    }
+    .text{
+        background-color: rgba( 128, 128, 128, 0.8);
+    }
+    /* .text_team{
+        background-color: rgba( 128, 128, 128, 0.5);
+    } */
+    .team_link {
+        color: whitesmoke;
+    }
 
-.all_team{
-    color: #307fe2;
-    text-decoration: underline;
-    text-shadow:#e7f6ff 0 -1px 0,
-    #00abf0 1px 1px 0,
-    #0096e4 2px 2px 0,
-    #00ceff 3px 3px 0,
-    #006392 4px 4px 0,
-    #00485b 5px 5px 0,
-    #333 5px 5px 10px;color:#44e9ff;
-    font-size: 2em;
-}
+    .link_team{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 3em;
+    }
+    .linkEU {
+        background-color: #000b28;
+        padding: 8px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-decoration: none;
+        color: white;
+    }
+    .linkUS{
+        background-color: #000b28;
+        padding: 8px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-decoration: none;
+        color: white;
+    }
 
-.flex_row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
-}
+    .linkAsia{
+        background-color: #000b28;
+        padding: 8px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-decoration: none;
+        color: white;
+    }
 
-.flex_col{
-    display: flex;
-    flex-direction: column;
-}
+    .text_team{
+        /* margin-bottom: 5%; */
+    }
 
-.text_how{
-    display: flex;
-    justify-content: space-around;
-    max-width: 600px;
-    padding: 20px;
-    border: solid 4px white;
-    background-color: #000b28;
-    border-radius: 10px 40px;
-    
-}
-.text_obj{
-    display: flex;
-    justify-content: space-around;
-    max-width: 600px;
-    padding: 20px;
-    border: solid 4px white;
-    background-color: #000b28;
-    border-radius: 40px 10px;
-}
-.text_intro{
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    text-shadow: black 3px 2px;
-}
-.text_main{
-    
-}
-.img_obj{
-    display: flex;
-    align-items: right;
-    max-width: 600px;
-}
-.img_how{
-    display: flex;
-    align-items: left;
-    max-width: 600px;
-}
+    .text_list{
+        color: #307fe2;
+    }
 
-/*  Couleur et effets de titre 
+    .all_team{
+        color: #307fe2;
+        text-decoration: underline;
+        text-shadow:#e7f6ff 0 -1px 0,
+        #00abf0 1px 1px 0,
+        #0096e4 2px 2px 0,
+        #00ceff 3px 3px 0,
+        #006392 4px 4px 0,
+        #00485b 5px 5px 0,
+        #333 5px 5px 10px;color:#44e9ff;
+        font-size: 2em;
+    }
 
-    color: #307fe2;
-    text-decoration: underline;
-    text-shadow:#e7f6ff 0 -1px 0,
-    #00abf0 1px 1px 0,
-    #0096e4 2px 2px 0,
-    #00ceff 3px 3px 0,
-    #006392 4px 4px 0,
-    #00485b 5px 5px 0,
-    #333 5px 5px 10px;color:#44e9ff;
+    .flex_row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
 
-    Couleur et effets de sous-titres
+    .flex_col{
+        display: flex;
+        flex-direction: column;
+    }
 
-    text-shadow:#FFFEC8 0 -1px 0,
-    #ff3a00 1px 1px 0,
-    #c01c01 2px 2px 0,
-    #bf1b01 3px 3px 0,
-    #e90b20 4px 4px 0,
-    #850103 5px 5px 0,
-    #333 5px 5px 10px;color:#FFD100;
+    .text_how{
+        display: flex;
+        justify-content: space-around;
+        max-width: 600px;
+        padding: 20px;
+        border: solid 4px white;
+        background-color: #000b28;
+        border-radius: 10px 40px;
+        
+    }
+    .text_obj{
+        display: flex;
+        justify-content: space-around;
+        max-width: 600px;
+        padding: 20px;
+        border: solid 4px white;
+        background-color: #000b28;
+        border-radius: 40px 10px;
+    }
+    .text_intro{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        text-shadow: black 3px 2px;
+    }
+    .text_main{
+        
+    }
+    .img_obj{
+        display: flex;
+        align-items: right;
+        max-width: 600px;
+    }
+    .img_how{
+        display: flex;
+        align-items: left;
+        max-width: 600px;
+    }
 
-*/ 
-    
+    /*  Couleur et effets de titre 
+
+        color: #307fe2;
+        text-decoration: underline;
+        text-shadow:#e7f6ff 0 -1px 0,
+        #00abf0 1px 1px 0,
+        #0096e4 2px 2px 0,
+        #00ceff 3px 3px 0,
+        #006392 4px 4px 0,
+        #00485b 5px 5px 0,
+        #333 5px 5px 10px;color:#44e9ff;
+
+        Couleur et effets de sous-titres
+
+        text-shadow:#FFFEC8 0 -1px 0,
+        #ff3a00 1px 1px 0,
+        #c01c01 2px 2px 0,
+        #bf1b01 3px 3px 0,
+        #e90b20 4px 4px 0,
+        #850103 5px 5px 0,
+        #333 5px 5px 10px;color:#FFD100;
+
+    */ 
+}

@@ -1,9 +1,52 @@
-@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+
 
 * {
-    font-family: "Montserrat";
+    font-family: "Bourgeois W00 Medium";
+    font-weight: 200;
+}
+header{
+    position: fixed; 
+    top: 0;
+    right: 0;
+    left: 0;
+
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    
+    /* background-color: gray; */
+    background-image: linear-gradient(#000b28, #000b28);
+    color: #FFF;
+
 }
 
+.nav_tab{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav_tab_li{
+    float: left;
+    margin-left: 10px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline white;
+}
 body {
     background-image: url(images/rl1.webp);
     background-size: cover;
@@ -12,13 +55,27 @@ body {
     color: whitesmoke;
     margin: 5;
 }
-
+p{
+    color: orange;
+    font-size: 1.3em;
+    font-weight: medium;
+    text-align: justify;
+}
 .top_title {
-    background-color: black;
-    border: 3px solid blue;
+    border: solid;
     border-radius: 10px;
-    color: blue;
-    font-size: 1.2em;
+    color: #307fe2;
+    text-decoration: underline;
+    text-shadow:#e7f6ff 0 -1px 0,
+    #00abf0 1px 1px 0,
+    #0096e4 2px 2px 0,
+    #00ceff 3px 3px 0,
+    #006392 4px 4px 0,
+    #00485b 5px 5px 0,
+    #333 5px 5px 10px;color:#44e9ff;
+    text-shadow: 7px black;
+    
+    margin-top: 100px;
 }
 
 table {
@@ -32,13 +89,14 @@ caption {
 table, caption, th, td {
     border: 3px solid black;
     border-collapse: collapse;
-    background-color: rgba(128, 128, 128, 0.4);
+    background-color: rgba(0, 11, 40, 0.6);
+    color: orange;
+    font-size: 1.3em;
+    font-weight: medium;
+    text-align: justify;
 }
 
 caption, th, td {
     padding: 5px;
 }
 
-.logo_bot {
-    size: 5px ;
-}
