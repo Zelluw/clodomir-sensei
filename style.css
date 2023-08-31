@@ -365,7 +365,7 @@ li {
     align-items: center;
 }
 
-@media (max-width:922px) {
+@media only screen and (max-device-width : 480px) {
 
     .flex_row {
         display: flex;
