@@ -294,6 +294,7 @@ li {
         #00485b 5px 5px 0,
         #333 5px 5px 10px;
     color: #44e9ff;
+    padding-bottom: 20px;
 }
 
 .flex_col {
@@ -327,6 +328,10 @@ li {
     justify-content: space-around;
     color: white;
     text-shadow: black 3px 2px;
+}
+
+.text_esport{
+    padding-bottom: 50px;
 }
 
 .img_obj {
