@@ -56,8 +56,6 @@ header {
 }
 
 
-
-
 li a {
     display: block;
     color: white;
@@ -104,6 +102,9 @@ main {
     position: relative;
 }
 
+.text_main{
+    font-size:x-large;
+}
 body {
     background-image: url(images/rl1.webp);
     background-size: cover;
