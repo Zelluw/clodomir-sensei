@@ -124,7 +124,6 @@ p {
 
 .p1 {
     color: red;
-    font-size: 1.3em;
     font-style: italic;
     font-weight: medium;
     text-align: justify;
@@ -132,7 +131,6 @@ p {
 
 .p2 {
     color: #F9F8FF;
-    font-size: 1.3em;
     font-weight: large;
     text-align: justify;
 }
@@ -167,13 +165,11 @@ p {
 }
 
 .logo_twitter_img {
-    font-size: 4em;
     color: white;
     transition: all 0.3s ease;
 }
 
 .logo_insta_img {
-    font-size: 4em;
     color: white;
     transition: all 0.3s ease;
 }
@@ -203,7 +199,6 @@ p {
 
 li {
     color: orange;
-    font-size: 1.1em;
     font-weight: medium;
     text-align: justify;
 }
@@ -217,7 +212,6 @@ li {
         #850103 5px 5px 0,
         #333 5px 5px 10px;
     color: #FFD100;
-    font-size: 1.5em;
     text-decoration: underline;
     text-underline-offset: auto;
 
@@ -232,7 +226,6 @@ li {
         #850103 5px 5px 0,
         #333 5px 5px 10px;
     color: #FFD100;
-    font-size: 1.5em;
     text-decoration: underline;
     text-underline-offset: auto;
 }
@@ -301,7 +294,6 @@ li {
         #00485b 5px 5px 0,
         #333 5px 5px 10px;
     color: #44e9ff;
-    font-size: 2em;
 }
 
 .flex_col {

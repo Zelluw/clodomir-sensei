@@ -57,7 +57,6 @@ body {
 }
 p{
     color: orange;
-    font-size: 1.3em;
     font-weight: medium;
     text-align: justify;
 }
@@ -86,7 +85,7 @@ table {
 }
 
 caption {
-    font-size: 2em;
+    
 }
 
 table, caption, th, td {
@@ -94,7 +93,6 @@ table, caption, th, td {
     border-collapse: collapse;
     background-color: rgba(0, 11, 40, 0.6);
     color: orange;
-    font-size: 1.3em;
     font-weight: medium;
     text-align: justify;
 }
