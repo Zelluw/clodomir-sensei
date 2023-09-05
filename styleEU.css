@@ -44,8 +44,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover{
-    text-decoration: underline white;
+li a:hover {
+    text-decoration: underline #44e9ff;
+    color: #44e9ff;
 }
 body {
     background-image: url(images/rl1.webp);

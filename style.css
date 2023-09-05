@@ -33,8 +33,9 @@ header {
 
 .nav_tab_li {
     float: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
+
 
 .top {
     color: #307fe2;
@@ -65,7 +66,8 @@ li a {
 }
 
 li a:hover {
-    text-decoration: underline white;
+    text-decoration: underline #44e9ff;
+    color: #44e9ff;
 }
 
 h1 {
@@ -193,16 +195,6 @@ p {
     text-shadow: 10px 10px 15px black;
 }
 
-.link2 {
-    color: orange;
-}
-
-li {
-    color: orange;
-    font-weight: medium;
-    text-align: justify;
-}
-
 .obj {
     text-shadow: #FFFEC8 0 -1px 0,
         #ff3a00 1px 1px 0,
@@ -234,9 +226,6 @@ li {
     background-color: rgba(128, 128, 128, 0.8);
 }
 
-/* .text_team{
-    background-color: rgba( 128, 128, 128, 0.5);
-} */
 .team_link {
     color: whitesmoke;
 }
@@ -248,9 +237,23 @@ li {
     margin-bottom: 3em;
 }
 
+.linkEU:hover{
+    text-decoration: underline #44e9ff;
+    color: #44e9ff;
+}
+
+.linkUS:hover{
+    text-decoration: underline #44e9ff;
+    color: #44e9ff;
+}
+.linkAsia:hover{
+    text-decoration: underline #44e9ff;
+    color: #44e9ff;
+}
+
 .linkEU {
     background-color: #000b28;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
     border: 2px solid black;
     text-decoration: none;
@@ -259,7 +262,7 @@ li {
 
 .linkUS {
     background-color: #000b28;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
     border: 2px solid black;
     text-decoration: none;
@@ -268,16 +271,14 @@ li {
 
 .linkAsia {
     background-color: #000b28;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
     border: 2px solid black;
     text-decoration: none;
     color: white;
 }
 
-.text_team {
-    /* margin-bottom: 5%; */
-}
+
 
 .text_list {
     color: #307fe2;
@@ -331,7 +332,14 @@ li {
 }
 
 .text_esport{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: solid 4px white;
+    background-color: #000b28;
+    border-radius: 40px;
 }
 
 .img_obj {
@@ -398,3 +406,49 @@ li {
     #333 5px 5px 10px;color:#FFD100;
 
 */
+
+.text_about{
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: solid 4px white;
+    background-color: #000b28;
+    border-radius: 40px;
+    font-family: "Bourgeois WOO Medium";
+}
+
+.link_about-1{
+    background-color: #000b28;
+    margin-right: 25px;
+    border: solid 2px white;
+    margin-bottom: 5px;
+}
+.link_about-1:hover{
+    background-color: #102b76;
+}
+.link_about-2{
+    background-color: #000b28;
+    margin-right: 25px;
+    border: solid 2px white;
+    margin-bottom: 5px;
+}
+.link_about-2:hover{
+    background-color: #102b76;
+}
+.link_about-3{
+    background-color: #000b28;
+    margin-right: 25px;
+    border: solid 2px white;
+    margin-bottom: 5px;
+}
+.link_about-3:hover{
+    background-color: #102b76;
+}
+
+.text_link {
+    color: #44e9ff;
+    font-weight: medium;
+    text-align: justify;
+}
